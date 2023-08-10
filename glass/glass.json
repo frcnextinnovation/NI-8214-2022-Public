@@ -1,0 +1,23 @@
+{
+  "NetworkTables": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/Mode Chooser": "String Chooser"
+    },
+    "windows": {
+      "/SmartDashboard/Field": {
+        "height": 8.229599952697754,
+        "image": "C:\\3rd_tools\\path-planner\\data\\flutter_assets\\images\\field22.png",
+        "width": 16.459199905395508,
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables Settings": {
+    "mode": "Client",
+    "serverTeam": "8214"
+  }
+}
