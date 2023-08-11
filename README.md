@@ -39,11 +39,11 @@ The code is written by [Jetbrains Idea](https://www.jetbrains.com/idea/) and fol
 - Field-centric swerve drive
 - Full time auto-aim through limelight 3 and odometry(Shoot even limelight broken and never lost target)
 - Automatic wrong ball rejection by color sensor and fused odometry(Shoot to hanger automatically)
-- REV color sensor data are transform to uart by Pico
+- REV color sensor data are transformd to UART by Pico
 - Feedforward compensation to turret control through chassis angular vel and relative vel to vision target
 - System identification to flywheel, run fly wheel by simple feedforward model
 - Build shooting parameters by linear interpolated tree map(Hood angle & flywheel rpm)
-- Semi-automated climber through state-machine using encoder positions and bang-bang controller
+- Semi-automated climber through state-machine using encoder positions and Bang-bang Controller
 
 ### Auto
 
