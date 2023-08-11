@@ -137,7 +137,7 @@ public class Shooter extends BaseSubsystem {
                       odometry.updateVo(fieldToRobotPose, visionTargetInfo.timestamp);
                     }
                   } else {
-                    if (odometryAimTimeoutCount < 10) {
+                    if (odometryAimTimeoutCount < ShooterConfig.MAX_ALLOWABLE_ODOMETRY_AIM_COUNT) {
                       odometryAimTimeoutCount++;
                     } else if (isOdometryAimEnable) {
                       // Aim by odometer

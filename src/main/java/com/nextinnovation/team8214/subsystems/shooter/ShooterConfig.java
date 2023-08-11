@@ -6,6 +6,9 @@ import com.nextinnovation.lib.utils.InterpolatingDouble;
 import com.nextinnovation.lib.utils.InterpolatingTreeMap;
 
 public class ShooterConfig {
+  // Delay Count
+  public static final int MAX_ALLOWABLE_ODOMETRY_AIM_COUNT = 10;
+
   // Shooting parameters
   public static final InterpolatingTreeMap<InterpolatingDouble, Translation2d> shootingParaTree =
       new InterpolatingTreeMap<>(30);
