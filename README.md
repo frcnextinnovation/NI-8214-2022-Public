@@ -6,7 +6,7 @@ Team 8214's 2022 FRC robot code, written in Java and NI's custom robot control f
 
 The code is written by [Jetbrains Idea](https://www.jetbrains.com/idea/) and follows NI programming format([NI-Programming-Guide](https://github.com/FRCNextInnovation/NI-Programming-Guide)).
 
-<img src="./assets/8214-2022-robot-assy.png" style="zoom:50%;" >
+<img src="./assets/next-innovation.png" style="zoom:50%;" >
 
 ## Setup Instructions
 
