@@ -27,7 +27,6 @@ import com.nextinnovation.team8214.subsystems.vision.VisionState;
 import edu.wpi.first.math.controller.SimpleMotorFeedforward;
 import edu.wpi.first.networktables.NetworkTableEntry;
 import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Shooter extends BaseSubsystem {
   /***********************************************************************************************
