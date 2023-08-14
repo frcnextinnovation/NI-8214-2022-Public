@@ -31,7 +31,7 @@ The code is written by [Jetbrains Idea](https://www.jetbrains.com/idea/) and fol
 ### Common
 
 - Custom robot control framework, run robot control loop in 100-200hz(Org 50hz)
-- All subsystems  are built as state-machine
+- All subsystems are built as state-machine
 - Virtual OI layer for clean teleop and auto control logic
 
 ### Teleop
