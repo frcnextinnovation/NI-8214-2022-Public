@@ -31,7 +31,7 @@ The code is written by [Jetbrains Idea](https://www.jetbrains.com/idea/) and fol
 ### Common
 
 - Custom robot control framework, run robot control loop in 100-200hz(Org 50hz)
-- Design all subsystem as a state-machine
+- All subsystems  are built as state-machine
 - Virtual OI layer for clean teleop and auto control logic
 
 ### Teleop
@@ -39,8 +39,8 @@ The code is written by [Jetbrains Idea](https://www.jetbrains.com/idea/) and fol
 - Field-centric swerve drive
 - Full time auto-aim through limelight 3 and odometry(Shoot even limelight broken and never lost target)
 - Automatic wrong ball rejection by color sensor and fused odometry(Shoot to hanger automatically)
-- REV color sensor data are transformd to UART by Pico
-- Feedforward compensation to turret control through chassis angular vel and relative vel to vision target
+- REV color sensor data in UART by Pico
+- Feedforward compensation to turret control through chassis angular velocity and relative velocity to vision target
 - System identification to flywheel, run fly wheel by simple feedforward model
 - Build shooting parameters by linear interpolated tree map(Hood angle & flywheel rpm)
 - Semi-automated climber through state-machine using encoder positions and Bang-bang Controller
@@ -48,6 +48,6 @@ The code is written by [Jetbrains Idea](https://www.jetbrains.com/idea/) and fol
 ### Auto
 
 - Trajectory generator based on Quintic Hermite Spline with swerve kinematic constrain
-- Drive motion planner based on Adaptive Pure Pursuit Following Controller with Pure P Controller
-- Fused odometry in Unscented Kalman Filter base on wheel IMU odometry and vision odometry
-- Mode chooser and executer based on action system
+- Drive motion planner based on Adaptive Pure Pursuit and Pure P Controller
+- Fused odometry in Unscented Kalman Filter base on wheel, IMU, and vision odometry
+- Mode chooser and executer based on action
